@@ -1,0 +1,97 @@
+        window.openModal = () => newProjectModal.classList.add('active');
+        window.handleSortChange = function(value) {
+        window.toggleSortDirection = function() {
+        window.goBack = function() {
+        window.renderDashboard = function() {
+        window.renderProjectsView = function() {
+        window.renderProjectView = function(projectId) {
+        window.toggleTask = function(projectId, taskId) {
+        window.renderTasksView = function(tab = 'kanban') {
+        window.renderCalendarView = function(tab = 'month') {
+        window.changeCalendarMonth = function(delta) {
+        window.changeCalendarDay = function(delta) {
+        window.selectCalendarDate = function(year, month, day) {
+        window.renderProjectScheduleView = function() {
+        window.toggleScheduleParent = function(code) {
+        window.expandAllSchedule = function() {
+        window.collapseAllSchedule = function() {
+        window.editScheduleItem = function(code) {
+        window.saveScheduleItem = function(code) {
+        window.renderBoqChargingView = function() {
+            const scrollY = window.scrollY;
+            window.scrollTo(0, scrollY);
+        window.toggleBoqParent = function(code) {
+        window.editBoqBudget = function(code, name, currentBudget) {
+        window.saveBoqBudget = function(code) {
+        window.renderRequestView = function() {
+        window.openPrsModal = () => {
+        window.closePrsModal = () => {
+        window.generatePrsNo = function() {
+        window.changePrsRowsPerPage = function() {
+        window.changePrsPage = function(dir) {
+        window.renderPrsTable = function() {
+        window.editPrsRecord = function(id) {
+        window.deletePrsRecord = function(id) {
+        window.openPrsModal = (id = null) => {
+        window.renderManilaView = function() {
+        window.setManilaTab = function(tab) {
+        window.deleteManilaRecord = function(id) {
+        window.changeManilaRowsPerPage = function() {
+        window.changeManilaPage = function(dir) {
+        window.renderManilaTable = function() {
+        window.openManilaModal = function(id = null) {
+        window.closeManilaModal = function() {
+        window.handleManilaPrsChange = function() {
+        window.calculateManilaDaysDelayed = function() {
+        window.calculateManilaBudget = function() {
+        window.updateManilaMonth = function() {
+        window.renderLocalView = function() {
+        window.setLocalTab = function(tab) {
+        window.deleteLocalRecord = function(id) {
+        window.changeLocalRowsPerPage = function() {
+        window.changeLocalPage = function(dir) {
+        window.renderLocalTable = function() {
+        window.openLocalModal = function(id = null) {
+        window.closeLocalModal = function() {
+        window.toggleLocalStandalone = function() {
+        window.handleLocalPrsChange = function() {
+        window.calculateLocalDaysDelayed = function() {
+        window.calculateLocalBudget = function() {
+        window.updateLocalMonth = function() {
+        window.createLocalRecord = function(prsId) {
+        window.renderExpenseOverview = function() {
+        window.renderLookAheadView = function() {
+        window.renderForecastList = function() {
+        window.viewForecast = function(id) {
+        window.backToForecastList = function() {
+        window.updateForecastStatus = function(id, newStatus) {
+        window.inlineEditForecastItem = function(id, itemId, field, value) {
+        window.renderForecastDetail = function(id) {
+        window.openForecastModal = function(cloneId = null) {
+        window.closeForecastModal = function() {
+        window.nextWizardStep = function() {
+        window.prevWizardStep = function() {
+        window.updateWizardData = function(field, value, category = null, subfield = null) {
+        window.addDetailedItem = function(type) {
+        window.removeDetailedItem = function(type, id) {
+        window.updateDetailedItem = function(type, id, field, value) {
+        window.saveWizardForecast = function(isSubmit = false) {
+        window.renderWizardStep = function() {
+        window.populateExpenseMonthFilter = function() {
+        window.renderExpenseDashboard = function() {
+        window.setMaterialsTab = function(tab) {
+        window.openNewMaterialModal = function() {
+        window.openNewTransactionModal = function() {
+        window.renderMaterialsView = function() {
+        window.renderFuelView = function() {
+        window.renderFuelDashboard = function() {
+        window.openFuelModal = function() {
+        window.closeFuelModal = function() {
+        window.populateEquipmentDropdown = function() {
+        window.addEquipment = function() {
+        window.saveNewEquipment = function() {
+        window.editFuelRecord = function(id) {
+        window.deleteFuelRecord = function(id) {
+        window.dragTask = function(ev, taskId) {
+        window.allowDrop = function(ev) {
+        window.dropTask = function(ev, newStatus) {
